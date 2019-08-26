@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+.idea
+*.iml
+.gitignore
+leyou-api-gateway/target/
+leyou-authentication/leyou-authentication-service/target/
+leyou-cart/target/
+leyou-comments/leyou-comments-service/target/
+leyou-config/target/
+leyou-goods-web/target/
+leyou-item/leyou-item-service/target/
+leyou-order/leyou-order-service/target/
+leyou-registry/target/
+leyou-search/target/
+leyou-secskill/leyou-seckill-service/target/
+leyou-sms/target/
+leyou-upload/target/
+leyou-user/leyou-user-service/target/
+
