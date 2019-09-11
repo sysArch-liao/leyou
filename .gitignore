@@ -19,4 +19,7 @@ leyou-secskill/leyou-seckill-service/target/
 leyou-sms/target/
 leyou-upload/target/
 leyou-user/leyou-user-service/target/
-
+leyou-authentication/leyou-authentication-common/target/
+leyou-common/target/
+leyou-item/leyou-item-interface/target/
+leyou-user/leyou-user-interface/target/
