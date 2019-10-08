@@ -7,16 +7,20 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lyj8330328/leyou-config.git
+          uri: https://github.com/sysArch-liao/leyou-config.git
   rabbitmq:
-    host: 192.168.19.121
+    host: 49.235.111.100
     username: /leyou
     password: leyou
     virtual-host: /leyou
 
-
-management: #暴露触发消息总线的地址
+# 修改配置文件后，可以不用重启项目就使配置文件生效
+# 通过发送Url: http://127.0.0.1:10011/actuator/bus-refresh   Method:post
+management: # 暴露触发消息总线的地址
   endpoints:
     web:
       exposure:
         include: bus-refresh
+
+# 此模块可以单独启动，启动后可以通过以下url访问到相应的配置文件
+# http://localhost:10011/registry-dev.yml  可以看到registry-dev.yml配置文件
